@@ -146,33 +146,33 @@ body, html {
      Nossa maior missão é ajudar a desenvolver em cada ser humano, que aceita o chamado e chega até nós, um olhar transformador diante da vida, co-criando sua própria realidade.
      Todos os caminhos são importantes e significam para alguém em algum momento de sua história.
      Nem todos os caminhos são para sempre, nem todos os caminhos significam igualmente para todos.
-     Mas todos precisam de um caminho em movimento.<br><br><br><br><br>
+     Mas todos precisam de um caminho em movimento.<br><br><br><br>
    </p>
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Foto+</span><br>
+    <span class="w3-xlarge">Carolina Cesa</span><br>
     Kriya
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Foto+</span><br>
+    <span class="w3-xlarge">Cristiane Falkemberg</span><br>
     Tantra
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Foto+</span><br>
+    <span class="w3-xlarge">Marcom</span><br>
     Reiki
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Foto+</span><br>
+    <span class="w3-xlarge">Cristiane Schroeder<br/>Diego Souza</span><br>
     Coaching
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Foto+</span><br>
+    <span class="w3-xlarge">Ivi Pereira</span><br>
     Psicologia
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Foto+</span><br>
+    <span class="w3-xlarge">Matheus Moura</span><br>
     Sivananda
   </div>
   <div class="w3-quarter w3-section">
