@@ -60,27 +60,27 @@ body, html {
 }
 
 .bgimg-home {
-    background-image: url('./w3images/home_bg.jpg');
+    background-image: url('./images/home_bg.jpg');
     min-height: 100%;
 }
 
 .bgimg-yoga {
-    background-image: url("./w3images/yoga_bg.jpg");
+    background-image: url("./images/yoga_bg.jpg");
     min-height: 400px;
 }
 
 .bgimg-horarios {
-    background-image: url("./w3images/horarios_bg.jpg");
+    background-image: url("./images/horarios_bg.jpg");
     min-height: 400px;
 }
 
 .bgimg-galeria {
-    background-image: url("./w3images/galeria_bg.jpg");
+    background-image: url("./images/galeria_bg.jpg");
     min-height: 400px;
 }
 
 .bgimg-contato {
-    background-image: url("./w3images/contato_bg.jpg");
+    background-image: url("./images/contato_bg.jpg");
     min-height: 400px;
 }
 
@@ -204,7 +204,7 @@ body, html {
 
     <div class="w3-col m3 w3-center w3-padding-large">
       <span><b>KRIYA YOGA</b></span>
-      <img src="./w3images/babaji.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
+      <img src="./images/babaji.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
       <p>
         A Kriya Hatha Yoga, um dos cinco ramos da <a href="http://www.babajiskriyayoga.net/portuguese/home.php" title="Kriya Yoga" target="_blank">Kriya Yoga</a> de <a href="https://josetadeuarantes.wordpress.com/2012/02/16/babaji-o-grande-avatar-de-nossa-era/" title="Wikipedia: Mahavatar Babaji" target="_blank">Babaji Nagaraj</a>, é a arte científica da mestria
         do corpo físico através de asanas, bandhas, mudras, pranayamas e meditação. Ao fortalecer chakras e eliminar
@@ -215,7 +215,7 @@ body, html {
 
     <div class="w3-col m3 w3-center w3-padding-large">
       <span><b>TANTRA YOGA</b></span>
-      <img src="./w3images/tantra.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
+      <img src="./images/tantra.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
       <p>
         O <a href="https://pt.wikipedia.org/wiki/Tantra" title="Wikipedia: Tantra" target="_blank">Tantra</a> (<em>Tan: expansão, tra: liberação</em>), baseia-se no culto
         da união das forças ativa e masculina de Shiva com a passiva e feminina de Shakti. A aula de Tantra é composta
@@ -226,7 +226,7 @@ body, html {
 
     <div class="w3-col m3 w3-center w3-padding-large">
       <span><b>HATHA YOGA</b></span>
-      <img src="./w3images/nataraj.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
+      <img src="./images/nataraj.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.
       </p>
@@ -234,7 +234,7 @@ body, html {
 
     <div class="w3-col m3 w3-center w3-padding-large">
       <span><b>MÉTODO SIVANANDA</b></span>
-      <img src="./w3images/sivananda.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Swami Sivananda" width="500" height="333">
+      <img src="./images/sivananda.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Swami Sivananda" width="500" height="333">
       <p>
         Reconhecido médico e sábio indiano do século XX, <a href="https://pt.wikipedia.org/wiki/Swami_Sivananda" title="Wikipedia: Swami Sivananda" target="_blank">Sivananda</a> propôs uma sequência de exercícios respiratórios,
         posturas e relaxamento combinados a partir das clássicas escrituras do Hatha Yoga.
@@ -401,37 +401,37 @@ body, html {
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3 color">
-      <img src="./w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Grupo">
+      <img src="./images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Grupo">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      <img src="./images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      <img src="./images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aula de meditação">
+      <img src="./images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aula de meditação">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3 color">
-      <img src="./w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sala principal">
+      <img src="./images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sala principal">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aula de Kriya Yoga">
+      <img src="./images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aula de Kriya Yoga">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      <img src="./images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="./images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
   </div>
   <button class="w3-button w3-padding-large w3-light-grey rounded-corner" style="margin-top:32px">Mais fotos</button>
