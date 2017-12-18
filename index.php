@@ -5,27 +5,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $subject = "Mensagem recebida de " . $_POST["nome"] . ' (' . $email . ')';
   $message = $_POST["mensagem"];
 
-  mail('contato@espacoincluir.com', $subject, $message);
+  mail('carolina@espacoincluir.com', $subject, $message);
   header('Location: index.php?sent=1#contact');
 }
 
 $quote  = null;
+$sivananda = null;
 $random = rand(0, 2);
 
 switch ($random) {
   case 0:
     $quote = "<cite>Yoga é o aquietamento das ondas mentais.</cite>
               <footer><cite>— Patanjali</cite></footer>";
+    $sivananda = "./images/sivananda2.jpg";
     break;
 
   case 1:
     $quote = "<cite>Meditar é recordar que não somos um corpo mortal, mas uma alma imortal.</cite>
               <footer><cite>— Yogananda</cite></footer>";
+    $sivananda = "./images/sivananda2.jpg";
     break;
 
   case 2:
     $quote = "<cite>Todas as faculdades estão latentes em você. Desenvolva-as.</cite>
               <footer><cite>— Sivananda</cite></footer>";
+    $sivananda = "./images/sivananda1.jpg";
     break;
 }
 
@@ -225,7 +229,7 @@ body, html {
     </div>
 
     <div class="w3-col m3 w3-center w3-padding-large">
-      <span><b>HATHA YOGA</b></span>
+      <span><b>MEDITAÇÃO</b></span>
       <img src="./images/nataraj.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.
@@ -234,7 +238,7 @@ body, html {
 
     <div class="w3-col m3 w3-center w3-padding-large">
       <span><b>MÉTODO SIVANANDA</b></span>
-      <img src="./images/sivananda.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Swami Sivananda" width="500" height="333">
+      <img src="<?= $sivananda ?>" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Swami Sivananda" width="500" height="333">
       <p>
         Reconhecido médico e sábio indiano do século XX, <a href="https://pt.wikipedia.org/wiki/Swami_Sivananda" title="Wikipedia: Swami Sivananda" target="_blank">Sivananda</a> propôs uma sequência de exercícios respiratórios,
         posturas e relaxamento combinados a partir das clássicas escrituras do Hatha Yoga.
@@ -310,9 +314,9 @@ body, html {
       <div class="row">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 12h</div>
         <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça" title="Hatha Yoga terça-feira às 12h">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Terça"></div>
         <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta" title="Hatha Yoga quinta-feira às 12h">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Quinta"></div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
       </div>
@@ -323,7 +327,7 @@ body, html {
         <div class="cell right-border" data-title="Terça"></div>
         <div class="cell right-border" data-title="Quarta"></div>
         <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta" title="Hatha Yoga sexta-feira às 15h">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado" title="Yoga kids sábado às 15h">Yoga kids</div>
       </div>
 
@@ -405,11 +409,11 @@ body, html {
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      <img src="./images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Integrantes do Espaço">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      <img src="./images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Primeira iniciação em Kriya Yoga">
     </div>
 
     <div class="w3-col m3 color">
@@ -419,22 +423,22 @@ body, html {
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3 color">
+      <img src="./images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Concentração">
+    </div>
+
+    <div class="w3-col m3 color">
       <img src="./images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sala principal">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aula de Kriya Yoga">
+      <img src="./images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Primeira iniciação em Kriya Yoga">
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3 color">
-      <img src="./images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="./images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ásanas">
     </div>
   </div>
-  <button class="w3-button w3-padding-large w3-light-grey rounded-corner" style="margin-top:32px">Mais fotos</button>
+  <button class="w3-button w3-padding-large w3-light-grey rounded-corner" style="margin-top:32px" onClick="window.open('https://www.instagram.com/espacoincluir/')">MAIS FOTOS</button>
 </div>
 
 <!-- Fourth Parallax Image with Portfolio Text -->
@@ -468,7 +472,7 @@ body, html {
         </div>
         <input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="mensagem">
         <button class="w3-button w3-light-grey rounded-corner w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> <?= $_GET["sent"] == '1' ? 'Mensagem enviada' : 'Enviar' ?>
+          <i class="fa fa-paper-plane"></i> <?= $_GET["sent"] == '1' ? 'MENSAGEM ENVIADA' : 'ENVIAR' ?>
         </button>
       </form>
     </div>
@@ -476,10 +480,10 @@ body, html {
 </div>
 
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey rounded-corner"><i class="fa fa-arrow-up w3-margin-right"></i>Início</a>
+  <a href="#home" class="w3-button w3-light-grey rounded-corner"><i class="fa fa-arrow-up w3-margin-right"></i>INÍCIO</a>
   <div class="w3-xxlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity footer-fb" style="padding: 5px;" onClick="window.open('https://www.facebook.com/espacoincluir')"></i>
-    <i class="fa fa-instagram instagram w3-hover-opacity footer-insta" style="padding: 5px;"></i>
+    <i class="fa fa-instagram instagram w3-hover-opacity footer-insta" style="padding: 5px;" onClick="window.open('https://www.instagram.com/espacoincluir/')"></i>
   </div>
   <span>Design e desenvolvimento por <a href="https://www.facebook.com/adhyatman108" title="Matheus Moura" target="_blank">Matheus Moura</a></span>
 </footer>
@@ -531,6 +535,7 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZu3ttx6JZhcVhx-kV3Hx4s4JXedwMlMM&callback=myMap"></script>
 </body>
