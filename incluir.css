@@ -370,9 +370,22 @@ blockquote > footer {
   color: #35808e;
 }
 
-p > a:hover {
+p > a {
   color: #35808e;
   text-decoration: none;
+  font-weight: bold;
+}
+
+p > a:hover {
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .logo-espaco {

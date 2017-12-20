@@ -37,7 +37,7 @@ switch ($random) {
 
 <!DOCTYPE html>
 <html>
-<title>Incluir | Espaço de Desenvolvimento Humano</title>
+<title>Incluir · Espaço de Desenvolvimento Humano</title>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -150,38 +150,39 @@ body, html {
      Nossa maior missão é ajudar a desenvolver em cada ser humano, que aceita o chamado e chega até nós, um olhar transformador diante da vida, co-criando sua própria realidade.
      Todos os caminhos são importantes e significam para alguém em algum momento de sua história.
      Nem todos os caminhos são para sempre, nem todos os caminhos significam igualmente para todos.
-     Mas todos precisam de um caminho em movimento.<br><br><br><br>
+     Mas todos precisam de um caminho em movimento.<br><br><br><br><br>
    </p>
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Carolina Cesa</span><br>
-    Kriya
+    <span class="w3-large"><a class="link" href="https://www.facebook.com/nina.marsol.9" title="Facebook: Carolina Cesa" target="_blank">Carolina Cesa</a></span><br>
+    <a href="#yoga" class="link" title="Meditação">Meditação</a> <span class="fa fa-plus-circle"></span> <a class="link" href="#yoga" title="Kriya Yoga">Kriya Yoga</a>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Cristiane Falkemberg</span><br>
-    Tantra
+    <span class="w3-large"><a class="link" href="https://www.facebook.com/crisfalk80" title="Facebook: Cristiane Falkemberg" target="_blank">Cristiane Falkemberg</a></span><br>
+    <a href="#yoga" class="link" title="Tantra Yoga">Tantra Yoga</a>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Marcom</span><br>
+    <span class="w3-large"><a class="link" href="https://www.facebook.com/Marcom-Terapeuta-Hol%C3%ADstico-215347285331657/" title="Facebook: Marcom Terapeuta Holístico" target="_blank">Marco Antonio</a></span><br>
     Reiki
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Cristiane Schroeder<br/>Diego Souza</span><br>
+    <span class="w3-large"><a class="link" href="https://www.facebook.com/Cristiane.Schroeder.Coach" title="Facebook: Cristiane Schroeder" target="_blank">Cristiane Schroeder</a><br/>
+      <a class="link" href="https://www.facebook.com/profile.php?id=100002619381706" title="Facebook: Diego Souza" target="_blank">Diego Souza</a>
+    </span><br>
     Coaching
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Ivi Pereira</span><br>
-    Psicologia
+    <span class="w3-large"></span><br>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Matheus Moura</span><br>
-    Sivananda
+    <span class="w3-large"><a class="link" href="https://www.facebook.com/ivi.pereira1" title="Facebook: Ivo Pereira" target="_blank">Ivi Pereira</a></span><br>
+    Psicologia <span class="fa fa-plus-circle"></span> Terapia Sistêmica
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Foto+</span><br>
-    Terapia Sistêmica
+    <span class="w3-large"><a class="link" href="https://www.facebook.com/adhyatman108" title="Facebook: Matheus DM" target="_blank">Matheus Moura</a></span><br>
+    <a href="#yoga" class="link" title="Sivananda Yoga">Sivananda Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link" href="http://www.rolfing.com.br/o-que-e-liberacao-miofascial/" title="Associação Brasileira de Rolfing®: Liberação Miofascial" target="_blank">Liberação Miofascial</a>
   </div>
 </div>
 
@@ -224,7 +225,7 @@ body, html {
         O <a href="https://pt.wikipedia.org/wiki/Tantra" title="Wikipedia: Tantra" target="_blank">Tantra</a> (<em>Tan: expansão, tra: liberação</em>), baseia-se no culto
         da união das forças ativa e masculina de Shiva com a passiva e feminina de Shakti. A aula de Tantra é composta
         de posturas, práticas respiratórias, relaxamento, meditação e automassagem. Além dos benefícios físicos
-        e emocionais, o Tantra outorga autoconhecimento, reforça autoestima e força de vontade.
+        e emocionais, o Tantra outorga autoconhecimento e reforça a autoestima.
       </p>
     </div>
 
@@ -232,7 +233,8 @@ body, html {
       <span><b>MEDITAÇÃO</b></span>
       <img src="./images/nataraj.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.
+        Meditar é desenvolver a compreensão intuitiva. A meditação é o coração de todas as práticas de Yoga, é algo natural e está latente em você.
+        Comece a dar mais atenção à sua mente: a meditação é uma poderosa aliada na busca pelo conhecimento dos processos mentais. Sua prática traz maior equilíbrio emocional e sensação de paz interior.
       </p>
     </div>
 
@@ -243,7 +245,7 @@ body, html {
         Reconhecido médico e sábio indiano do século XX, <a href="https://pt.wikipedia.org/wiki/Swami_Sivananda" title="Wikipedia: Swami Sivananda" target="_blank">Sivananda</a> propôs uma sequência de exercícios respiratórios,
         posturas e relaxamento combinados a partir das clássicas escrituras do Hatha Yoga.
         Prática que equilibra sistema nervoso simpático e parassimpático através da precisão nas posturas e
-        profundo relaxamento ao fim da aula.
+        profundo relaxamento ao final da aula.
       </p>
     </div>
 
@@ -409,7 +411,7 @@ body, html {
     </div>
 
     <div class="w3-col m3 color">
-      <img src="./images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Integrantes do Espaço">
+      <img src="./images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aula de Kriya Hatha Yoga">
     </div>
 
     <div class="w3-col m3 color">
@@ -457,8 +459,8 @@ body, html {
     <div class="w3-col m6 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Miguel Tostes, 648 · Porto Alegre · RS<br>
-        <i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (51) 9 81 89 47 75<br>
-        <i class="fa fa-envelope-o fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> contato@espacoincluir.com.br<br>
+        <i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (51) 9 8189 4775<br>
+        <i class="fa fa-envelope-o fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> contato@espacoincluir.com<br>
       </div>
       <p>Apareça para uma <i class="fa fa-coffee"></i> de chá, ou envie sua mensagem:</p>
       <form method="POST" action="index.php">
@@ -485,7 +487,7 @@ body, html {
     <i class="fa fa-facebook-official w3-hover-opacity footer-fb" style="padding: 5px;" onClick="window.open('https://www.facebook.com/espacoincluir')"></i>
     <i class="fa fa-instagram instagram w3-hover-opacity footer-insta" style="padding: 5px;" onClick="window.open('https://www.instagram.com/espacoincluir/')"></i>
   </div>
-  <span>Design e desenvolvimento por <a href="https://www.facebook.com/adhyatman108" title="Matheus Moura" target="_blank">Matheus Moura</a></span>
+  <span>Design e desenvolvimento por <a class="link" href="https://www.facebook.com/adhyatman108" title="Matheus Moura" target="_blank">Matheus Moura</a></span>
 </footer>
 
 <!-- Add Google Maps -->
