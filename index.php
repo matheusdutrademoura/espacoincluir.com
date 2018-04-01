@@ -9,27 +9,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   header('Location: index.php?sent=1#contact');
 }
 
-$quote  = null;
 $sivananda = null;
-$random = rand(0, 2);
+$random = rand(0, 1);
 
 switch ($random) {
   case 0:
-    $quote = "<cite>Yoga é o aquietamento das ondas mentais.</cite>
-              <footer><cite>— Patanjali</cite></footer>";
-    $sivananda = "./images/sivananda2.jpg";
+    $sivananda = "./images/sivananda1.jpg";
     break;
 
   case 1:
-    $quote = "<cite>Meditar é recordar que não somos um corpo mortal, mas uma alma imortal.</cite>
-              <footer><cite>— Yogananda</cite></footer>";
     $sivananda = "./images/sivananda2.jpg";
-    break;
-
-  case 2:
-    $quote = "<cite>Todas as faculdades estão latentes em você. Desenvolva-as.</cite>
-              <footer><cite>— Sivananda</cite></footer>";
-    $sivananda = "./images/sivananda1.jpg";
     break;
 }
 
@@ -37,15 +26,43 @@ switch ($random) {
 
 <!DOCTYPE html>
 <html>
-<title>Incluir · Espaço de Desenvolvimento Humano</title>
+<title>Espaço Incluir | Yoga · Meditação · Hatha · Kriya · Tantra · Sivananda </title>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111455827-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111455827-1');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Description" content="O Espaço oferece Hatha Yoga, Kriya Yoga, Tantra Yoga, Sivananda Yoga, e atendimento com Liberação Miofascial Sistêmica">
+  <meta name="keywords" content="Yoga, Hatha, Kriya, Tantra, Sivananda, Liberação, Miofascial, Fascial">
+  <meta name="author" content="Matheus Moura">
+
   <link rel="stylesheet" href="./incluir.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Yoga Studio",
+    "url": "http://www.espacoincluir.com",
+    "name": "Espaço Incluir",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "51-9-8189-4775",
+      "contactType": "Customer service"
+    }
+  }
+  </script>
 </head>
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
@@ -56,7 +73,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-home, .bgimg-yoga, .bgimg-horarios, .bgimg-galeria, .bgimg-contato {
+.bgimg-home, .bgimg-yoga, .bgimg-horarios, .bgimg-investimento, .bgimg-galeria, .bgimg-contato {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,22 +87,27 @@ body, html {
 
 .bgimg-yoga {
     background-image: url("./images/yoga_bg.jpg");
-    min-height: 400px;
+    min-height: 450px;
 }
 
 .bgimg-horarios {
     background-image: url("./images/horarios_bg.jpg");
-    min-height: 400px;
+    min-height: 450px;
+}
+
+.bgimg-investimento {
+    background-image: url("./images/investimento_bg.jpg");
+    min-height: 450px;
 }
 
 .bgimg-galeria {
     background-image: url("./images/galeria_bg.jpg");
-    min-height: 400px;
+    min-height: 450px;
 }
 
 .bgimg-contato {
     background-image: url("./images/contato_bg.jpg");
-    min-height: 400px;
+    min-height: 450px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -112,6 +134,7 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-lightbulb-o"></i> SOBRE</a>
     <a href="#yoga" class="w3-bar-item w3-button w3-hide-small">ॐ YOGA & MEDITAÇÃO</a>
     <a href="#horarios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-clock-o"></i> HORÁRIOS</a>
+    <a href="#investimento" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-clock-o"></i> VALORES</a>
     <a href="#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
   </div>
@@ -121,6 +144,7 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
     <a href="#yoga" class="w3-bar-item w3-button" onclick="toggleFunction()">YOGA & MEDITAÇÃO</a>
     <a href="#horarios" class="w3-bar-item w3-button" onclick="toggleFunction()">HORÁRIOS</a>
+    <a href="#investimento" class="w3-bar-item w3-button" onclick="toggleFunction()">VALORES</a>
     <a href="#galeria" class="w3-bar-item w3-button" onclick="toggleFunction()">GALERIA</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTATO</a>
   </div>
@@ -132,7 +156,7 @@ body, html {
     <div class="rounded-corner-x w3-center w3-padding-large w3-black w3-animate-opacity center-logo">
       <span class="logo-espaco">ESPAÇO</span>
       <span class="logo-incluir">incluir</span>
-      <!-- <span class="logo-footer">ESPAÇO DE DESENVOLVIMENTO HUMANO</span> -->
+      <span class="logo-footer">CENTRO DE YOGA E MEDITAÇÃO</span>
     </div>
   </div>
 </div>
@@ -144,7 +168,7 @@ body, html {
      Somos seres em evolução na diversidade da vida.
      Nossos processos evolutivos passam pelo despertar e busca do desenvolvimento pessoal.
      Nessa busca, muitas vezes, necessitamos de apoio e de um caminho orientador.
-     O Espaço Incluir oferece acolhida afetuosa, escuta significativa e caminhos tera pêuticos transformadores.
+     O Espaço Incluir oferece acolhida afetuosa, escuta significativa e caminhos terapêuticos transformadores.
      Nosso maior valor é a inclusão de todas as pessoas, cada qual com sua particular história e processos internos físicos, energéticos,  mentais, emocionais e espirituais.
      Nosso maior propósito é unir olhares e caminhos em torno de um objetivo comum, o desenvolvimento evolutivo pessoal e coletivo.
      Nossa maior missão é ajudar a desenvolver em cada ser humano, que aceita o chamado e chega até nós, um olhar transformador diante da vida, co-criando sua própria realidade.
@@ -156,33 +180,20 @@ body, html {
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
-    <span class="w3-large"><a class="link" href="https://www.facebook.com/nina.marsol.9" title="Facebook: Carolina Cesa" target="_blank">Carolina Cesa</a></span><br>
-    <a href="#yoga" class="link" title="Meditação">Meditação</a> <span class="fa fa-plus-circle"></span> <a class="link" href="#yoga" title="Kriya Yoga">Kriya Yoga</a>
+    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/nina.marsol.9" title="Facebook: Carolina Cesa" target="_blank">Carolina Cesa</a></span><br>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Meditação">Meditação</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga" title="Kriya Yoga">Kriya Yoga</a>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-large"><a class="link" href="https://www.facebook.com/crisfalk80" title="Facebook: Cristiane Falkemberg" target="_blank">Cristiane Falkemberg</a></span><br>
-    <a href="#yoga" class="link" title="Tantra Yoga">Tantra Yoga</a>
+    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/adhyatman108" title="Facebook: Matheus DM" target="_blank">Matheus Moura</a></span><br>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Sivananda Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="http://www.rolfing.com.br/o-que-e-liberacao-miofascial/" title="Associação Brasileira de Rolfing®: Liberação Miofascial" target="_blank">Liberação Miofascial</a>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-large"><a class="link" href="https://www.facebook.com/Marcom-Terapeuta-Hol%C3%ADstico-215347285331657/" title="Facebook: Marcom Terapeuta Holístico" target="_blank">Marco Antonio</a></span><br>
-    Reiki
+    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/anete.schroder" title="Facebook: Anete Schroder" target="_blank">Anete Schroder</a></span><br>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Hatha Yoga</a> <span class="fa fa-plus-circle"></span>
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-large"><a class="link" href="https://www.facebook.com/Cristiane.Schroeder.Coach" title="Facebook: Cristiane Schroeder" target="_blank">Cristiane Schroeder</a><br/>
-      <a class="link" href="https://www.facebook.com/profile.php?id=100002619381706" title="Facebook: Diego Souza" target="_blank">Diego Souza</a>
-    </span><br>
-    Coaching
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-large"></span><br>
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-large"><a class="link" href="https://www.facebook.com/ivi.pereira1" title="Facebook: Ivo Pereira" target="_blank">Ivi Pereira</a></span><br>
-    Psicologia <span class="fa fa-plus-circle"></span> Terapia Sistêmica
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-large"><a class="link" href="https://www.facebook.com/adhyatman108" title="Facebook: Matheus DM" target="_blank">Matheus Moura</a></span><br>
-    <a href="#yoga" class="link" title="Sivananda Yoga">Sivananda Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link" href="http://www.rolfing.com.br/o-que-e-liberacao-miofascial/" title="Associação Brasileira de Rolfing®: Liberação Miofascial" target="_blank">Liberação Miofascial</a>
+    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/crisfalk80" title="Facebook: Cristiane Falkemberg" target="_blank">Cristiane Falkemberg</a></span><br>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Tantra Yoga">Tantra Yoga</a>
   </div>
 </div>
 
@@ -193,11 +204,7 @@ body, html {
 </div>
 
 <div class="w3-content w3-container w3-padding-64" id="yoga">
-  <h3 class="w3-center">
-    <blockquote id="citacao">
-      <?= $quote; ?>
-    </blockquote>
-  </h3>
+  <h3 class="w3-center">AULAS DE YOGA E MEDITAÇÃO</h3>
   <p class="w3-padding-large">
     Da raiz sânscrita <em>yuj</em>, Yoga tem como tradução literal a palavra <em>união</em> - entre nossa percepção
     antes velada, a consciência una e altruísta.
@@ -206,50 +213,69 @@ body, html {
     dependendo da necessidade e capacidade do aluno ao longo da prática.
   </p>
   <div class="w3-row">
-
     <div class="w3-col m3 w3-center w3-padding-large">
-      <span><b>KRIYA YOGA</b></span>
+      <span class="w3-large">KRIYA YOGA</span>
       <img src="./images/babaji.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
       <p>
-        A Kriya Hatha Yoga, um dos cinco ramos da <a href="http://www.babajiskriyayoga.net/portuguese/home.php" title="Kriya Yoga" target="_blank">Kriya Yoga</a> de <a href="https://josetadeuarantes.wordpress.com/2012/02/16/babaji-o-grande-avatar-de-nossa-era/" title="Wikipedia: Mahavatar Babaji" target="_blank">Babaji Nagaraj</a>, é a arte científica da mestria
-        do corpo físico através de asanas, bandhas, mudras, pranayamas e meditação. Ao fortalecer chakras e eliminar
+        A Kriya Hatha Yoga, um dos cinco ramos da <a class="link" href="http://www.babajiskriyayoga.net/portuguese/home.php" title="Kriya Yoga" target="_blank">Kriya Yoga</a> de <a class="link" href="https://josetadeuarantes.wordpress.com/2012/02/16/babaji-o-grande-avatar-de-nossa-era/" title="Wikipedia: Mahavatar Babaji" target="_blank">Babaji Nagaraj</a>, é a arte científica da mestria
+        do corpo físico através de <i>asanas</i>, <i>bandhas</i>, <i>mudras</i>, <i>pranayamas</i> e meditação. Ao fortalecer chakras e eliminar
         bloqueios energéticos, o fluir da energia vital toma lugar, melhorando a imunidade biológica
         e mantendo o corpo livre de desordens funcionais.
       </p>
     </div>
 
     <div class="w3-col m3 w3-center w3-padding-large">
-      <span><b>TANTRA YOGA</b></span>
+      <span class="w3-large">HATHA YOGA</span>
+      <img src="./images/hathayoga.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
+      <p>
+        Já amplamente difundido no Ocidente, o <a class="link" href="https://pt.wikipedia.org/wiki/Hata-ioga" title="Wikipedia: Hatha Yoga" target="_blank">Hatha Yoga</a>
+        é a prática física harmônica entre posturas e respiração que promove desbloqueios psíquicos e energéticos,
+        bem como beneficia a todas as esferas de exitência e manifestação: corpo, mente e espírito. Seus resultados são
+        comprovados por todos que o experimentam, e é um grande aliado da prática meditativa.
+      </p>
+    </div>
+
+    <div class="w3-col m3 w3-center w3-padding-large">
+      <span class="w3-large">TANTRA YOGA</span>
       <img src="./images/tantra.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
       <p>
-        O <a href="https://pt.wikipedia.org/wiki/Tantra" title="Wikipedia: Tantra" target="_blank">Tantra</a> (<em>Tan: expansão, tra: liberação</em>), baseia-se no culto
-        da união das forças ativa e masculina de Shiva com a passiva e feminina de Shakti. A aula de Tantra é composta
+        O <a class="link" href="https://pt.wikipedia.org/wiki/Tantra" title="Wikipedia: Tantra" target="_blank">Tantra</a> (<em>Tan: expansão, tra: liberação</em>), baseia-se no culto
+        da união das forças ativa e masculina de <i>Shiva</i> com a passiva e feminina de <i>Shakti</i>. A aula de Tantra é composta
         de posturas, práticas respiratórias, relaxamento, meditação e automassagem. Além dos benefícios físicos
         e emocionais, o Tantra outorga autoconhecimento e reforça a autoestima.
       </p>
     </div>
 
     <div class="w3-col m3 w3-center w3-padding-large">
-      <span><b>MEDITAÇÃO</b></span>
-      <img src="./images/nataraj.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
+      <span class="w3-large">SIVANANDA YOGA</span>
+      <img src="./images/sivananda2.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Swami Sivananda" width="500" height="333">
       <p>
-        Meditar é desenvolver a compreensão intuitiva. A meditação é o coração de todas as práticas de Yoga, é algo natural e está latente em você.
-        Comece a dar mais atenção à sua mente: a meditação é uma poderosa aliada na busca pelo conhecimento dos processos mentais. Sua prática traz maior equilíbrio emocional e sensação de paz interior.
-      </p>
-    </div>
-
-    <div class="w3-col m3 w3-center w3-padding-large">
-      <span><b>MÉTODO SIVANANDA</b></span>
-      <img src="<?= $sivananda ?>" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Swami Sivananda" width="500" height="333">
-      <p>
-        Reconhecido médico e sábio indiano do século XX, <a href="https://pt.wikipedia.org/wiki/Swami_Sivananda" title="Wikipedia: Swami Sivananda" target="_blank">Sivananda</a> propôs uma sequência de exercícios respiratórios,
-        posturas e relaxamento combinados a partir das clássicas escrituras do Hatha Yoga.
-        Prática que equilibra sistema nervoso simpático e parassimpático através da precisão nas posturas e
+        Reconhecido médico e sábio indiano do século XX, <a class="link" href="https://pt.wikipedia.org/wiki/Swami_Sivananda" title="Wikipedia: Swami Sivananda" target="_blank">Sivananda</a> propôs uma sequência de exercícios respiratórios,
+        posturas e relaxamento combinados a partir das clássicas escrituras do <a class="link" href="https://pt.wikipedia.org/wiki/Hata-ioga" title="Wikipedia: Hatha Yoga" target="_blank">Hatha Yoga</a>.
+        Prática que equilibra sistema nervoso simpático e parassimpático através da manutenção das posturas e
         profundo relaxamento ao final da aula.
       </p>
     </div>
-
   </div>
+
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./images/nataraj.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
+    </div>
+
+    <div class="w3-col m6 w3-left w3-padding-large">
+      <span class="w3-large">MEDITAÇÃO</span>
+      <p>
+        <!-- *TEXTO PARA COLUNA PEQUENA* Meditar é desenvolver a compreensão intuitiva. A meditação é o coração de todas as práticas de Yoga, é algo natural e está latente em você.
+        Comece a dar mais atenção à sua mente: a meditação é uma poderosa aliada na busca pelo conhecimento dos processos mentais. Sua prática traz
+        maior equilíbrio emocional e sensação de paz interior.-->
+        Um estado de consciência que pode ser compreendido com experiência direta e intuição. A meditação é o coração de todas as práticas de Yoga, é algo natural e está latente em você.
+        Comece a dar mais atenção à sua mente: a meditação é uma poderosa aliada na busca pelo conhecimento dos processos mentais. Sua prática traz
+        maior equilíbrio emocional e, como consequência, paz interior. Confira nossos grupos de meditação guiada!
+      </p>
+    </div>
+  </div>
+
 </div>
 
 <!-- ============================ HORÁRIOS ============================= -->
@@ -264,7 +290,7 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="horarios">
   <h3 class="w3-center">TODO DIA É DIA</h3>
   <p class="w3-center w3-padding-large">
-      <span class="paragraph_begin">Assim como você</span>, nossos horários de Yoga estão em constante crescimento e expansão.
+      <span class="text-differentiated">Assim como você</span>, nossos horários de Yoga estão em constante crescimento e expansão.
       Ao reconhecer também a individualidade, preparamos uma semana que ofereça práticas e métodos diversos,
       para que você experimente e escolha o que mais combina com o seu momento e busca pessoal.
   </p>
@@ -295,27 +321,17 @@ body, html {
 
       <div class="row">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 8h</div>
-        <div class="cell right-border" data-title="Segunda" title="Kriya Yoga segunda-feira às 8h">Kriya Yoga</div>
+        <div class="cell right-border" data-title="Segunda">Kriya Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta" title="Kriya Yoga quarta-feira às 8h">Kriya Yoga</div>
+        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta"></div>
+        <div class="cell right-border" data-title="Sexta">Hatha Yoga</div>
         <div class="cell" data-title="Sábado"></div>
       </div>
 
       <div class="row row-odd">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 10h</div>
-        <div class="cell right-border" data-title="Segunda" title="Meditação segunda-feira às 10h">Meditação</div>
-        <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta" title="Meditação quarta-feira às 10h">Meditação</div>
-        <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado" title="Sivananda Yoga sábado às 10h">Sivananda Yoga</div>
-      </div>
-
-      <div class="row">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 12h</div>
-        <div class="cell right-border" data-title="Segunda"></div>
+        <div class="cell right-border" data-title="Segunda">Meditação</div>
         <div class="cell right-border" data-title="Terça"></div>
         <div class="cell right-border" data-title="Quarta"></div>
         <div class="cell right-border" data-title="Quinta"></div>
@@ -323,58 +339,69 @@ body, html {
         <div class="cell" data-title="Sábado"></div>
       </div>
 
-      <div class="row row-odd">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 15h</div>
-        <div class="cell right-border" data-title="Segunda"></div>
+      <div class="row">
+        <div class="cell right-border"><span class="fa fa-clock-o"></span> 14h30</div>
+        <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta"></div>
+        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
         <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado" title="Yoga kids sábado às 15h">Yoga kids</div>
+        <div class="cell" data-title="Sábado"></div>
       </div>
 
-      <div class="row">
+      <div class="row row-odd">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 15:30</div>
         <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça" title="Tantra Yoga terça-feira às 15h30">Tantra Yoga</div>
+        <div class="cell right-border" data-title="Terça">Tantra Yoga</div>
         <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta" title="Tantra Yoga quinta-feira às 15h30">Tantra Yoga</div>
+        <div class="cell right-border" data-title="Quinta">Tantra Yoga</div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
-      </div>
-
-      <div class="row row-odd">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 16:30</div>
-        <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado" title="Kriya Yoga sábado às 16h30">Kriya Yoga</div>
       </div>
 
       <div class="row">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 18:30</div>
+        <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h</div>
         <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça" title="Meditação terça-feira às 18h30">Meditação</div>
+        <div class="cell right-border" data-title="Terça">Kriya Yoga</div>
         <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta" title="Meditação quinta-feira às 18h30">Meditação</div>
+        <div class="cell right-border" data-title="Quinta" title="Gratuita, contribuição espontânea">Sivananda Yoga</div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
       </div>
 
       <div class="row row-odd">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 19:30</div>
-        <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça" title="Kriya Yoga terça-feira às 19h30">Kriya Yoga</div>
-        <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta" title="Kriya Yoga quinta-feira às 19h30">Kriya Yoga</div>
+        <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h30</div>
+        <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Terça"></div>
+        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Quinta"></div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
       </div>
     </div>
-    </div>
+  </div>
 
+</div>
+
+
+<!-- ============================ INVESTIMENTO ============================= -->
+
+<div class="bgimg-investimento w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">VALORES</span>
+  </div>
+</div>
+
+<!-- Container (Horários Section) -->
+<div class="w3-content w3-container w3-padding-64" id="investimento">
+  <h3 class="w3-center">UM INVESTIMENTO EM VOCÊ</h3>
+  <p class="w3-center w3-padding-large">
+      <a class="link" href="#contact">Entre em contato</a> para consultar os valores de investimento para as modalidades atuais.
+      <br>
+      Em pouco tempo, publicaremos informações completas aqui :)
+  </p>
+  <p class="w3-center" style="font-size:40px">ॐ</p>
+  <br><br><br><br><br><br><br><br>
 </div>
 
 <!-- Modal for full size images on click-->
@@ -458,7 +485,7 @@ body, html {
     </div>
     <div class="w3-col m6 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Miguel Tostes, 648 · Porto Alegre · RS<br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Miguel Tostes, 650 · Porto Alegre · RS<br>
         <i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (51) 9 8189 4775<br>
         <i class="fa fa-envelope-o fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> contato@espacoincluir.com<br>
       </div>
@@ -487,7 +514,7 @@ body, html {
     <i class="fa fa-facebook-official w3-hover-opacity footer-fb" style="padding: 5px;" onClick="window.open('https://www.facebook.com/espacoincluir')"></i>
     <i class="fa fa-instagram instagram w3-hover-opacity footer-insta" style="padding: 5px;" onClick="window.open('https://www.instagram.com/espacoincluir/')"></i>
   </div>
-  <span>Design e desenvolvimento por <a class="link" href="https://www.facebook.com/adhyatman108" title="Matheus Moura" target="_blank">Matheus Moura</a></span>
+  <span style="color: #666666">Design e desenvolvimento por <a class="link" href="https://www.facebook.com/adhyatman108" target="_blank">Matheus DM</a></span>
 </footer>
 
 <!-- Add Google Maps -->
@@ -521,10 +548,10 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-text-green-incluir" + " w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        navbar.className = "incluir-nav-bar" + " w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
     } else {
         navbar.className = navbar.className.replace("w3-card w3-animate-top w3-white", "");
-        navbar.className = navbar.className.replace("w3-text-green-incluir", "w3-text-white");
+        navbar.className = navbar.className.replace("incluir-nav-bar", "w3-text-white");
     }
 }
 
