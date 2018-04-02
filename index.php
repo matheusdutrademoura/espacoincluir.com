@@ -134,7 +134,7 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-lightbulb-o"></i> SOBRE</a>
     <a href="#yoga" class="w3-bar-item w3-button w3-hide-small">ॐ YOGA & MEDITAÇÃO</a>
     <a href="#horarios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-clock-o"></i> HORÁRIOS</a>
-    <a href="#investimento" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-clock-o"></i> VALORES</a>
+    <a href="#investimento" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-dollar"></i> VALORES</a>
     <a href="#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
   </div>
@@ -189,7 +189,7 @@ body, html {
   </div>
   <div class="w3-quarter w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/anete.schroder" title="Facebook: Anete Schroder" target="_blank">Anete Schroder</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Hatha Yoga</a> <span class="fa fa-plus-circle"></span>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Hatha Yoga</a></span>
   </div>
   <div class="w3-quarter w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/crisfalk80" title="Facebook: Cristiane Falkemberg" target="_blank">Cristiane Falkemberg</a></span><br>
