@@ -179,20 +179,24 @@ body, html {
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/nina.marsol.9" title="Facebook: Carolina Cesa" target="_blank">Carolina Cesa</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Meditação">Meditação</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga" title="Kriya Yoga">Kriya Yoga</a>
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/adhyatman108" title="Facebook: Matheus DM" target="_blank">Matheus Moura</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Sivananda Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="http://www.rolfing.com.br/o-que-e-liberacao-miofascial/" title="Associação Brasileira de Rolfing®: Liberação Miofascial" target="_blank">Liberação Miofascial</a>
-  </div>
-  <div class="w3-quarter w3-section">
+  <div class="w3-cinco w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/anete.schroder" title="Facebook: Anete Schroder" target="_blank">Anete Schroder</a></span><br>
     <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Hatha Yoga</a></span>
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="w3-cinco w3-section">
+    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/adhyatman108" title="Facebook: Matheus DM" target="_blank">Matheus Moura</a></span><br>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Sivananda Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="http://www.rolfing.com.br/o-que-e-liberacao-miofascial/" title="Associação Brasileira de Rolfing®: Liberação Miofascial" target="_blank">Liberação Miofascial</a>
+  </div>
+  <div class="w3-cinco w3-section">
+    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/nina.marsol.9" title="Facebook: Carolina Cesa" target="_blank">Carolina Cesa</a></span><br>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Meditação">Meditação</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga" title="Kriya Yoga">Kriya Yoga</a>
+  </div>
+  <div class="w3-cinco w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/crisfalk80" title="Facebook: Cristiane Falkemberg" target="_blank">Cristiane Falkemberg</a></span><br>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Tantra Yoga">Tantra Yoga</a>
+  </div>
+  <div class="w3-cinco w3-section">
+    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/Khayyamdesaraswati" title="Facebook: Khayyam Mirá" target="_blank">Khayyam Mirá</a></span><br>
     <a href="#yoga" class="link texto-fundo-escuro" title="Tantra Yoga">Tantra Yoga</a>
   </div>
 </div>
@@ -323,9 +327,9 @@ body, html {
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 8h</div>
         <div class="cell right-border" data-title="Segunda">Kriya Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Quarta">Tantra Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Sexta">Tantra Yoga</div>
         <div class="cell" data-title="Sábado"></div>
       </div>
 
@@ -346,7 +350,7 @@ body, html {
         <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
         <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado"></div>
+        <div class="cell" data-title="Sábado">Yoga Kids</div>
       </div>
 
       <div class="row row-odd">
@@ -362,18 +366,18 @@ body, html {
       <div class="row">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h</div>
         <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça">Kriya Yoga</div>
+        <div class="cell right-border" data-title="Terça">Sivananda</div>
         <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta" title="Gratuita, contribuição espontânea">Sivananda Yoga</div>
+        <div class="cell right-border" data-title="Quinta" title="Gratuita, contribuição espontânea">Kriya Yoga</div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
       </div>
 
       <div class="row row-odd">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h30</div>
-        <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Segunda">Tantra Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Quarta">Tantra Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
@@ -514,7 +518,14 @@ body, html {
     <i class="fa fa-facebook-official w3-hover-opacity footer-fb" style="padding: 5px;" onClick="window.open('https://www.facebook.com/espacoincluir')"></i>
     <i class="fa fa-instagram instagram w3-hover-opacity footer-insta" style="padding: 5px;" onClick="window.open('https://www.instagram.com/espacoincluir/')"></i>
   </div>
-  <span style="color: #666666">Design e desenvolvimento por <a class="link" href="https://www.facebook.com/adhyatman108" target="_blank">Matheus DM</a></span>
+  <span style="color: #666666; font-size: 18px">
+    ॐ त्र्यं॑बकं यजामहे सु॒गन्धिं॑ पुष्टि॒वर्ध॑नम् ।<br>
+    उ॒र्वा॒रु॒कमि॑व॒ बन्ध॑नान् मृ॒त्योर् मु॑क्षीय॒ माऽमृता॑त् । <br>
+  </span>
+  <span style="color: #666666; font-size: 15px">
+    Om tryambakam yajāmahe sugandhim puṣṭivardhanam <br>
+    urvā rukamiva bandhanān mṛtyor mukṣīya mā'mṛtāt
+  </span>
 </footer>
 
 <!-- Add Google Maps -->
