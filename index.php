@@ -179,25 +179,29 @@ body, html {
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-cinco w3-section">
+  <div class="w3-seis w3-section">
+    <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/fenita.mahendra" title="Facebook: Fénita Mahendra" target="_blank">Fénita Mahendra</a></span><br>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Hatha Vinyasa">Hatha Vinyasa</a></span>
+  </div>
+  <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/anete.schroder" title="Facebook: Anete Schroder" target="_blank">Anete Schroder</a></span><br>
     <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Hatha Yoga</a></span>
   </div>
-  <div class="w3-cinco w3-section">
+  <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/adhyatman108" title="Facebook: Matheus DM" target="_blank">Matheus Moura</a></span><br>
     <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Sivananda Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="http://www.rolfing.com.br/o-que-e-liberacao-miofascial/" title="Associação Brasileira de Rolfing®: Liberação Miofascial" target="_blank">Liberação Miofascial</a>
   </div>
-  <div class="w3-cinco w3-section">
+  <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/nina.marsol.9" title="Facebook: Carolina Cesa" target="_blank">Carolina Cesa</a></span><br>
     <a href="#yoga" class="link texto-fundo-escuro" title="Meditação">Meditação</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga" title="Kriya Yoga">Kriya Yoga</a>
   </div>
-  <div class="w3-cinco w3-section">
+  <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/crisfalk80" title="Facebook: Cristiane Falkemberg" target="_blank">Cristiane Falkemberg</a></span><br>
     <a href="#yoga" class="link texto-fundo-escuro" title="Tantra Yoga">Tantra Yoga</a>
   </div>
-  <div class="w3-cinco w3-section">
+  <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/Khayyamdesaraswati" title="Facebook: Khayyam Mirá" target="_blank">Khayyam Mirá</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Tantra Yoga">Tantra Yoga</a>
+    <a href="#yoga" class="link texto-fundo-escuro" title="Hatha Yoga">Hatha Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga" title="Tantra Yoga">Tantra Yoga</a>
   </div>
 </div>
 
@@ -327,9 +331,9 @@ body, html {
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 8h</div>
         <div class="cell right-border" data-title="Segunda">Kriya Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta">Tantra Yoga</div>
+        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta">Tantra Yoga</div>
+        <div class="cell right-border" data-title="Sexta">Hatha Yoga</div>
         <div class="cell" data-title="Sábado"></div>
       </div>
 
@@ -364,20 +368,30 @@ body, html {
       </div>
 
       <div class="row">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h</div>
-        <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça">Sivananda</div>
-        <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta" title="Gratuita, contribuição espontânea">Kriya Yoga</div>
+        <div class="cell right-border"><span class="fa fa-clock-o"></span> 17h30</div>
+        <div class="cell right-border" data-title="Segunda">Vinyasa</div>
+        <div class="cell right-border" data-title="Terça"></div>
+        <div class="cell right-border" data-title="Quarta">Vinyasa</div>
+        <div class="cell right-border" data-title="Quinta"></div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
       </div>
 
       <div class="row row-odd">
+        <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h</div>
+        <div class="cell right-border" data-title="Segunda"></div>
+        <div class="cell right-border" data-title="Terça" title="Gratuita, contribuição espontânea">Sivananda</div>
+        <div class="cell right-border" data-title="Quarta"></div>
+        <div class="cell right-border" data-title="Quinta">Kriya Yoga</div>
+        <div class="cell right-border" data-title="Sexta"></div>
+        <div class="cell" data-title="Sábado"></div>
+      </div>
+
+      <div class="row">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h30</div>
-        <div class="cell right-border" data-title="Segunda">Tantra Yoga</div>
+        <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta">Tantra Yoga</div>
+        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
@@ -400,12 +414,57 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="investimento">
   <h3 class="w3-center">UM INVESTIMENTO EM VOCÊ</h3>
   <p class="w3-center w3-padding-large">
-      <a class="link" href="#contact">Entre em contato</a> para consultar os valores de investimento para as modalidades atuais.
-      <br>
-      Em pouco tempo, publicaremos informações completas aqui :)
+      <span class="text-differentiated">Planos diversos</span> que se acomodam ao seu tempo e ao que você se permite. Flexíveis, as aulas
+      não são fixadas em dias específicos, mas a regularidade do plano. A primeira aula experimental é oferecida gratuitamente, permita-se!
   </p>
-  <p class="w3-center" style="font-size:40px">ॐ</p>
-  <br><br><br><br><br><br><br><br>
+
+  <div class="wrapper">
+    <div class="table default-cursor">
+      <div class="row header w3-dark-grey">
+        <div class="cell">
+          Planos
+        </div>
+        <div class="cell">
+          Regularidade
+        </div>
+        <div class="cell">
+          Investimento
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="cell right-border"><span class="fa fa-battery-quarter"></span> Aspirante</div>
+        <div class="cell right-border" data-title="">4 aulas (ou 1x por semana)</div>
+        <div class="cell right-border" data-title="Aspirante">R$ 150</div>
+      </div>
+
+      <div class="row row-odd">
+        <div class="cell right-border"><span class="fa fa-battery-half"></span> Sadhaka</div>
+        <div class="cell right-border" data-title="">8 aulas (ou 2x por semana)</div>
+        <div class="cell right-border" data-title="Sadhaka">R$ 200</div>
+      </div>
+
+      <div class="row">
+        <div class="cell right-border"><span class="fa fa-battery-three-quarters"></span> Yoguin</div>
+        <div class="cell right-border" data-title="">12 aulas (ou 3x por semana)</div>
+        <div class="cell right-border" data-title="Yoguin">R$ 250</div>
+      </div>
+
+      <div class="row row-odd">
+        <div class="cell right-border"><span class="fa fa-battery-full"></span> Siddha</div>
+        <div class="cell right-border" data-title="">Livre</div>
+        <div class="cell right-border" data-title="Siddha">R$ 280</div>
+      </div>
+
+      <div class="row">
+        <div class="cell right-border"><span class="fa fa-star"></span> Aula avulsa</div>
+        <div class="cell right-border" data-title=""></div>
+        <div class="cell right-border" data-title="Siddha">R$ 40</div>
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 <!-- Modal for full size images on click-->
