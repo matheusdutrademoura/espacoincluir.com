@@ -137,6 +137,9 @@ body, html {
     <a href="#investimento" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-dollar"></i> VALORES</a>
     <a href="#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
+    <a href="https://www.facebook.com/espacoincluir/" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red" target="_blank">
+      <i class="fa fa-facebook-official"></i>
+    </a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -163,45 +166,57 @@ body, html {
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">O ESPAÇO</h3>
-  <p>
-     Somos seres em evolução na diversidade da vida.
-     Nossos processos evolutivos passam pelo despertar e busca do desenvolvimento pessoal.
-     Nessa busca, muitas vezes, necessitamos de apoio e de um caminho orientador.
-     O Espaço Incluir oferece acolhida afetuosa, escuta significativa e caminhos terapêuticos transformadores.
-     Nosso maior valor é a inclusão de todas as pessoas, cada qual com sua particular história e processos internos físicos, energéticos,  mentais, emocionais e espirituais.
-     Nosso maior propósito é unir olhares e caminhos em torno de um objetivo comum, o desenvolvimento evolutivo pessoal e coletivo.
-     Nossa maior missão é ajudar a desenvolver em cada ser humano, que aceita o chamado e chega até nós, um olhar transformador diante da vida, co-criando sua própria realidade.
-     Todos os caminhos são importantes e significam para alguém em algum momento de sua história.
-     Nem todos os caminhos são para sempre, nem todos os caminhos significam igualmente para todos.
-     Mas todos precisam de um caminho em movimento.<br><br><br><br><br>
-   </p>
+  <h3 class="w3-center">O ESPAÇO TAMBÉM É SEU</h3>
+    <p class="w3-padding-large">
+      O Espaço Incluir é um Centro de Yoga e Meditação, que oferece práticas de diversas disciplinas do Yoga
+      - A iniciar pelo desenvolvimento pessoal, emocional e energégico, através da prática física de posturas e técnicas respiratórias,
+      da introspecção e contemplação nas aulas de meditação, de estudos, de cantos de mantras e <i>kirtans</i> (canções devocionais),
+      cursos e workshops, recitais e encontros.
+      <br/>
+      <br/>
+      <span class="text-differentiated">O Espaço é receptivo a outros profissionais</span>, oferecendo suas salas para sub-locação e promovendo outras abordagens que orbitam o universo
+      holístico de auto-desenvolvimento.
+    </p>
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3 color">
+        <img src="./images/sobre_salao1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sala principal">
+      </div>
+      <div class="w3-col m3 color">
+        <img src="./images/sobre_salao2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sala principal">
+      </div>
+      <div class="w3-col m3 color">
+        <img src="./images/sobre_frente.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Recepção e recursos">
+      </div>
+      <div class="w3-col m3 color">
+        <img src="./images/sobre_fundos2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sala de atendimento">
+      </div>
+    </div>
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/fenita.mahendra" title="Facebook: Fénita Mahendra" target="_blank">Fénita Mahendra</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Hatha Vinyasa">Hatha Vinyasa</a></span>
+    <a href="#yoga" class="link texto-fundo-escuro">Hatha Vinyasa</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="http://www.accessconsciousness.com">Barras de Access</a>
   </div>
   <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/anete.schroder" title="Facebook: Anete Schroder" target="_blank">Anete Schroder</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Hatha Yoga</a></span>
+    <a href="#yoga" class="link texto-fundo-escuro">Hatha Yoga</a></span>
   </div>
   <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/adhyatman108" title="Facebook: Matheus DM" target="_blank">Matheus Moura</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Sivananda Yoga">Sivananda Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="http://www.rolfing.com.br/o-que-e-liberacao-miofascial/" title="Associação Brasileira de Rolfing®: Liberação Miofascial" target="_blank">Liberação Miofascial</a>
+    <a href="#yoga" class="link texto-fundo-escuro">Sivananda Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="http://www.rolfing.com.br/o-que-e-liberacao-miofascial/" title="Associação Brasileira de Rolfing®: Liberação Miofascial" target="_blank">Liberação Miofascial</a>
   </div>
   <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/nina.marsol.9" title="Facebook: Carolina Cesa" target="_blank">Carolina Cesa</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Meditação">Meditação</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga" title="Kriya Yoga">Kriya Yoga</a>
+    <a href="#yoga" class="link texto-fundo-escuro">Meditação</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga">Kriya Yoga</a>
   </div>
   <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/crisfalk80" title="Facebook: Cristiane Falkemberg" target="_blank">Cristiane Falkemberg</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Tantra Yoga">Tantra Yoga</a>
+    <a href="#yoga" class="link texto-fundo-escuro">Tantra Yoga</a>
   </div>
   <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/Khayyamdesaraswati" title="Facebook: Khayyam Mirá" target="_blank">Khayyam Mirá</a></span><br>
-    <a href="#yoga" class="link texto-fundo-escuro" title="Hatha Yoga">Hatha Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga" title="Tantra Yoga">Tantra Yoga</a>
+    <a href="#yoga" class="link texto-fundo-escuro">Hatha Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga">Tantra Yoga</a>
   </div>
 </div>
 
@@ -378,6 +393,16 @@ body, html {
       </div>
 
       <div class="row row-odd">
+        <div class="cell right-border"><span class="fa fa-clock-o"></span> 18h45</div>
+        <div class="cell right-border" data-title="Segunda"></div>
+        <div class="cell right-border" data-title="Terça"></div>
+        <div class="cell right-border" data-title="Quarta"></div>
+        <div class="cell right-border" data-title="Quinta"></div>
+        <div class="cell right-border" data-title="Sexta">Kirtans</div>
+        <div class="cell" data-title="Sábado"></div>
+      </div>
+
+      <div class="row">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h</div>
         <div class="cell right-border" data-title="Segunda"></div>
         <div class="cell right-border" data-title="Terça" title="Gratuita, contribuição espontânea">Sivananda</div>
@@ -387,7 +412,7 @@ body, html {
         <div class="cell" data-title="Sábado"></div>
       </div>
 
-      <div class="row">
+      <div class="row row-odd">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h30</div>
         <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
@@ -636,6 +661,6 @@ function toggleFunction() {
 }
 
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZu3ttx6JZhcVhx-kV3Hx4s4JXedwMlMM&callback=myMap"></script>
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZu3ttx6JZhcVhx-kV3Hx4s4JXedwMlMM&callback=myMap"></script>
 </body>
 </html>
