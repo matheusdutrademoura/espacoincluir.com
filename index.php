@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $subject = "Mensagem recebida de " . $_POST["nome"] . ' (' . $email . ')';
   $message = $_POST["mensagem"];
 
-  mail('carolina@espacoincluir.com', $subject, $message);
+  mail('espacoincluir.yoga@gmail.com', $subject, $message);
   header('Location: index.php?sent=1#contact');
 }
 
@@ -58,7 +58,7 @@ switch ($random) {
     "name": "Espaço Incluir",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "51-9-8189-4775",
+      "telephone": "51-99684-6634",
       "contactType": "Customer service"
     }
   }
@@ -574,8 +574,8 @@ body, html {
     <div class="w3-col m6 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Miguel Tostes, 650 · Porto Alegre · RS<br>
-        <i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (51) 9 8189 4775<br>
-        <i class="fa fa-envelope-o fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> contato@espacoincluir.com<br>
+        <i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (51) 9 9684 6634&nbsp;&nbsp;|&nbsp;&nbsp;(51) 9 8183 4994<br>
+        <i class="fa fa-envelope-o fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> espacoincluir.yoga@gmail.com<br>
       </div>
       <p>Apareça para uma <i class="fa fa-coffee"></i> de chá, ou envie sua mensagem:</p>
       <form method="POST" action="index.php">
