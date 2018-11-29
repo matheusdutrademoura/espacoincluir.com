@@ -313,11 +313,15 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="horarios">
   <h3 class="w3-center">TODO DIA É DIA</h3>
   <p class="w3-center w3-padding-large">
-      <span class="text-differentiated">Assim como você</span>, nossos horários de Yoga estão em constante crescimento e expansão.
+      <!-- <span class="text-differentiated">Assim como você</span>, nossos horários de Yoga estão em constante crescimento e expansão.
       Ao reconhecer também a individualidade, preparamos uma semana que ofereça práticas e métodos diversos,
-      para que você experimente e escolha o que mais combina com o seu momento e busca pessoal.
+      para que você experimente e escolha o que mais combina com o seu momento e busca pessoal. -->
+      <br/><br/><br/><br/><br/>
+      <a href="#contact">Entre em contato</a> para consultar a grade de horários corrente e agendar sua aula!
+      <br/><br/><br/><br/><br/><br/><br/>
   </p>
 
+<!--
   <div class="wrapper">
     <div class="table default-cursor">
       <div class="row header w3-dark-grey">
@@ -423,7 +427,7 @@ body, html {
       </div>
     </div>
   </div>
-
+-->
 </div>
 
 
