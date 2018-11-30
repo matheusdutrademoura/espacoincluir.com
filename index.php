@@ -242,7 +242,7 @@ body, html {
   </p>
   <div class="w3-row">
     <div class="w3-col m3 w3-center w3-padding-large">
-      <span class="w3-large">KRIYA YOGA</span>
+      <span class="w3-large">KRIYA HATHA YOGA</span>
       <img src="./images/babaji.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
       <p>
         A Kriya Hatha Yoga, um dos cinco ramos da <a class="link" href="http://www.babajiskriyayoga.net/portuguese/home.php" title="Kriya Yoga" target="_blank">Kriya Yoga</a> de <a class="link" href="https://josetadeuarantes.wordpress.com/2012/02/16/babaji-o-grande-avatar-de-nossa-era/" title="Wikipedia: Mahavatar Babaji" target="_blank">Babaji Nagaraj</a>, é a arte científica da mestria
@@ -449,7 +449,7 @@ body, html {
   <h3 class="w3-center">UM INVESTIMENTO EM VOCÊ</h3>
   <p class="w3-center w3-padding-large">
       <span class="text-differentiated">Planos diversos</span> que se acomodam ao seu tempo e ao que você se permite. Flexíveis, as aulas
-      não são fixadas em dias específicos, mas a regularidade do plano. A primeira aula experimental é oferecida gratuitamente, permita-se!
+      não são fixadas em dias específicos, mas a frequência do plano. A primeira aula experimental é oferecida gratuitamente, permita-se!
   </p>
 
   <div class="wrapper">
@@ -459,7 +459,7 @@ body, html {
           Planos
         </div>
         <div class="cell">
-          Regularidade
+          Frequência
         </div>
         <div class="cell">
           Investimento
@@ -468,19 +468,19 @@ body, html {
 
       <div class="row">
         <div class="cell right-border"><span class="fa fa-battery-quarter"></span> Aspirante</div>
-        <div class="cell right-border" data-title="">4 aulas (ou 1x por semana)</div>
+        <div class="cell right-border" data-title="">1x por semana</div>
         <div class="cell right-border" data-title="Aspirante">R$ 150</div>
       </div>
 
       <div class="row row-odd">
         <div class="cell right-border"><span class="fa fa-battery-half"></span> Sadhaka</div>
-        <div class="cell right-border" data-title="">8 aulas (ou 2x por semana)</div>
+        <div class="cell right-border" data-title="">2x por semana</div>
         <div class="cell right-border" data-title="Sadhaka">R$ 200</div>
       </div>
 
       <div class="row">
         <div class="cell right-border"><span class="fa fa-battery-three-quarters"></span> Yoguin</div>
-        <div class="cell right-border" data-title="">12 aulas (ou 3x por semana)</div>
+        <div class="cell right-border" data-title="">3x por semana</div>
         <div class="cell right-border" data-title="Yoguin">R$ 250</div>
       </div>
 
@@ -586,7 +586,7 @@ body, html {
     <div class="w3-col m6 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Miguel Tostes, 650 · Porto Alegre · RS<br>
-        <i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (51) 9 9684 6634&nbsp;&nbsp;|&nbsp;&nbsp;(51) 9 8183 4994<br>
+        <i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (51) 9 8146 4926&nbsp;&nbsp;|&nbsp;&nbsp;(51) 9 8182 0546<br>
         <i class="fa fa-envelope-o fa-fw w3-hover-text-black  w3-xlarge w3-margin-right"></i> espacoincluir.yoga@gmail.com<br>
         <i class="fa fa-facebook-official fa-fw w3-hover-text-black w3-hover-opacity w3-xlarge w3-margin-right" onClick="window.open('https://www.facebook.com/espacoincluir')"></i> <a href="https://www.facebook.com/espacoincluir">/espacoincluir</a><br>
         <i class="fa fa-instagram instagram fa-fw w3-hover-opacity w3-hover-text-black w3-xlarge w3-margin-right" onClick="window.open('https://www.instagram.com/espacoincluir.yoga/')"></i> <a href="https://www.instagram.com/espacoincluir.yoga/">espacoincluir.yoga</a>
