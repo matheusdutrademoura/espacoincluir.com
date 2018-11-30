@@ -256,14 +256,14 @@ p > a:hover {text-decoration: underline;}
 .logo-footer {font-size: 0.93em;float: left;}
 .center-logo {position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 
-.logo-incluir {color:#22d1b2;margin-top: 5px;margin-right: 10px;float: left;font-size: 7em;font-family: 'Pacifico', serif;margin-bottom: -45px;}
+.logo-incluir {color:#00e3c8;margin-top: 5px;margin-right: 10px;float: left;font-size: 7em;font-family: 'Pacifico', serif;margin-bottom: -45px;}
 .incluir-nav-bar{color:#666666!important}
 .incluir-nav-bar:hover{color:#666666!important}
-.text-differentiated {font-family: 'Kalam', serif;font-size: 1.25em;color: #22d1b2;}
-.link {text-decoration: none;color: #22d1b2;}
+.text-differentiated {font-family: 'Kalam', serif;font-size: 1.25em;color: #00e3c8;}
+.link {text-decoration: none;color: #00e3c8;}
 .texto-fundo-escuro {color: #ffffff!important}
-.w3-button:hover{color:#ffffff!important;opacity: 1; background-color:#22d1b2!important}
-.row:hover {background-color: #22d1b2;color: white;opacity: 0.7;}
+.w3-button:hover{color:#ffffff!important;opacity: 1; background-color:#00e3c8!important}
+.row:hover {background-color: #00e3c8;color: white;opacity: 0.7;}
 .w3-cinco{float:left;width:100%}
 .w3-cinco{width:20%}
 .w3-seis{float:left;width:100%}

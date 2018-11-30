@@ -135,7 +135,7 @@ body, html {
     <a href="#yoga" class="w3-bar-item w3-button w3-hide-small">ॐ YOGA & MEDITAÇÃO</a>
     <a href="#horarios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-clock-o"></i> HORÁRIOS</a>
     <a href="#investimento" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-dollar"></i> VALORES</a>
-    <a href="#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
+    <!-- <a href="#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>-->
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
     <a href="https://www.facebook.com/espacoincluir/" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red" target="_blank">
       <i class="fa fa-facebook-official"></i>
@@ -148,7 +148,7 @@ body, html {
     <a href="#yoga" class="w3-bar-item w3-button" onclick="toggleFunction()">YOGA & MEDITAÇÃO</a>
     <a href="#horarios" class="w3-bar-item w3-button" onclick="toggleFunction()">HORÁRIOS</a>
     <a href="#investimento" class="w3-bar-item w3-button" onclick="toggleFunction()">VALORES</a>
-    <a href="#galeria" class="w3-bar-item w3-button" onclick="toggleFunction()">GALERIA</a>
+    <!-- <a href="#galeria" class="w3-bar-item w3-button" onclick="toggleFunction()">GALERIA</a> -->
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTATO</a>
   </div>
 </div>
@@ -157,9 +157,12 @@ body, html {
 <div class="bgimg-home w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <div class="rounded-corner-x w3-center w3-padding-large w3-black w3-animate-opacity center-logo">
+      <!--
       <span class="logo-espaco">ESPAÇO</span>
       <span class="logo-incluir">incluir</span>
-      <span class="logo-footer">CENTRO DE YOGA E MEDITAÇÃO</span>
+      <span class="logo-footer">CENTRO DE YOGA E MEDITAÇÃO</span>-->
+
+      <img src="./images/logo.png"/>
     </div>
   </div>
 </div>
@@ -193,6 +196,7 @@ body, html {
     </div>
 </div>
 
+<!--
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-seis w3-section">
     <span class="w3-large"><a class="link texto-fundo-escuro" href="https://www.facebook.com/fenita.mahendra" title="Facebook: Fénita Mahendra" target="_blank">Fénita Mahendra</a></span><br>
@@ -219,6 +223,7 @@ body, html {
     <a href="#yoga" class="link texto-fundo-escuro">Hatha Yoga</a> <span class="fa fa-plus-circle"></span> <a class="link texto-fundo-escuro" href="#yoga">Tantra Yoga</a>
   </div>
 </div>
+-->
 
 <div class="bgimg-yoga w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
@@ -507,13 +512,15 @@ body, html {
 
 
 <!-- Third Parallax Image with Portfolio Text -->
+
+<!--
 <div class="bgimg-galeria w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">GALERIA</span>
   </div>
 </div>
 
-<!-- Container (Galeria Section) -->
+
 <div class="w3-center w3-content w3-container w3-padding-64" id="galeria">
   <h3 class="w3-center">A CASA EM MOVIMENTO</h3>
   <p class="w3-center">
@@ -559,8 +566,9 @@ body, html {
       <img src="./images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ásanas">
     </div>
   </div>
-  <button class="w3-button w3-padding-large w3-light-grey rounded-corner" style="margin-top:32px" onClick="window.open('https://www.instagram.com/espacoincluir/')">MAIS FOTOS</button>
+  <button class="w3-button w3-padding-large w3-light-grey rounded-corner" style="margin-top:32px" onClick="window.open('https://www.instagram.com/espacoincluir.yoga/')">MAIS FOTOS</button>
 </div>
+-->
 
 <!-- Fourth Parallax Image with Portfolio Text -->
 <div class="bgimg-contato w3-display-container w3-opacity-min">
@@ -579,7 +587,9 @@ body, html {
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Miguel Tostes, 650 · Porto Alegre · RS<br>
         <i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (51) 9 9684 6634&nbsp;&nbsp;|&nbsp;&nbsp;(51) 9 8183 4994<br>
-        <i class="fa fa-envelope-o fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> espacoincluir.yoga@gmail.com<br>
+        <i class="fa fa-envelope-o fa-fw w3-hover-text-black  w3-xlarge w3-margin-right"></i> espacoincluir.yoga@gmail.com<br>
+        <i class="fa fa-facebook-official fa-fw w3-hover-text-black w3-hover-opacity w3-xlarge w3-margin-right" onClick="window.open('https://www.facebook.com/espacoincluir')"></i> <a href="https://www.facebook.com/espacoincluir">/espacoincluir</a><br>
+        <i class="fa fa-instagram instagram fa-fw w3-hover-opacity w3-hover-text-black w3-xlarge w3-margin-right" onClick="window.open('https://www.instagram.com/espacoincluir.yoga/')"></i> <a href="https://www.instagram.com/espacoincluir.yoga/">espacoincluir.yoga</a>
       </div>
       <p>Apareça para uma <i class="fa fa-coffee"></i> de chá, ou envie sua mensagem:</p>
       <form method="POST" action="index.php">
@@ -604,7 +614,7 @@ body, html {
   <a href="#home" class="w3-button w3-light-grey rounded-corner"><i class="fa fa-arrow-up w3-margin-right"></i>INÍCIO</a>
   <div class="w3-xxlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity footer-fb" style="padding: 5px;" onClick="window.open('https://www.facebook.com/espacoincluir')"></i>
-    <i class="fa fa-instagram instagram w3-hover-opacity footer-insta" style="padding: 5px;" onClick="window.open('https://www.instagram.com/espacoincluir/')"></i>
+    <i class="fa fa-instagram instagram w3-hover-opacity footer-insta" style="padding: 5px;" onClick="window.open('https://www.instagram.com/espacoincluir.yoga/')"></i>
   </div>
   <span style="color: #666666; font-size: 18px">
     ॐ त्र्यं॑बकं यजामहे सु॒गन्धिं॑ पुष्टि॒वर्ध॑नम् ।<br>
