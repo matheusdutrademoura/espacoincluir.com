@@ -318,15 +318,12 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="horarios">
   <h3 class="w3-center">TODO DIA É DIA</h3>
   <p class="w3-center w3-padding-large">
-      <!-- <span class="text-differentiated">Assim como você</span>, nossos horários de Yoga estão em constante crescimento e expansão.
+      <span class="text-differentiated">Assim como você</span>, nossos horários de Yoga estão em constante crescimento e expansão.
       Ao reconhecer também a individualidade, preparamos uma semana que ofereça práticas e métodos diversos,
-      para que você experimente e escolha o que mais combina com o seu momento e busca pessoal. -->
-      <br/><br/><br/><br/><br/>
-      <a href="#contact">Entre em contato</a> para consultar a grade de horários corrente e agendar sua aula!
-      <br/><br/><br/><br/><br/><br/><br/>
+      para que você experimente e escolha o que mais combina com o seu momento e busca pessoal.
   </p>
 
-<!--
+
   <div class="wrapper">
     <div class="table default-cursor">
       <div class="row header w3-dark-grey">
@@ -353,86 +350,56 @@ body, html {
 
       <div class="row">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 8h</div>
-        <div class="cell right-border" data-title="Segunda">Kriya Yoga</div>
+        <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
-        <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta">Hatha Yoga</div>
-        <div class="cell" data-title="Sábado"></div>
+        <div class="cell right-border" data-title="Quarta"></div>
+        <div class="cell right-border" data-title="Quinta">Kriya Hatha Yoga</div>
+        <div class="cell right-border" data-title="Sexta"></div>
+        <div class="cell" data-title="Sábado">Hatha Yoga</div>
       </div>
 
       <div class="row row-odd">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 10h</div>
-        <div class="cell right-border" data-title="Segunda">Meditação</div>
-        <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado"></div>
+       <div class="cell right-border"><span class="fa fa-clock-o"></span> 17h30</div>
+       <div class="cell right-border" data-title="Segunda"></div>
+       <div class="cell right-border" data-title="Terça">Kriya Hatha Yoga</div>
+       <div class="cell right-border" data-title="Quarta"></div>
+       <div class="cell right-border" data-title="Quinta">Kriya Hatha Yoga</div>
+       <div class="cell right-border" data-title="Sexta"></div>
+       <div class="cell" data-title="Sábado"></div>
       </div>
 
       <div class="row">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 14h30</div>
+        <div class="cell right-border"><span class="fa fa-clock-o"></span> 17h45</div>
         <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
         <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
         <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado">Yoga Kids</div>
+        <div class="cell" data-title="Sábado"></div>
       </div>
 
       <div class="row row-odd">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 15:30</div>
+        <div class="cell right-border"><span class="fa fa-clock-o"></span> 18h</div>
         <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça">Tantra Yoga</div>
+        <div class="cell right-border" data-title="Terça"></div>
         <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta">Tantra Yoga</div>
+        <div class="cell right-border" data-title="Quinta">Kriya Hatha Yoga</div>
         <div class="cell right-border" data-title="Sexta"></div>
         <div class="cell" data-title="Sábado"></div>
       </div>
 
       <div class="row">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 17h30</div>
-        <div class="cell right-border" data-title="Segunda">Vinyasa</div>
-        <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta">Vinyasa</div>
-        <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado"></div>
-      </div>
-
-      <div class="row row-odd">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 18h45</div>
-        <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta">Kirtans</div>
-        <div class="cell" data-title="Sábado"></div>
-      </div>
-
-      <div class="row">
-        <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h</div>
-        <div class="cell right-border" data-title="Segunda"></div>
-        <div class="cell right-border" data-title="Terça" title="Gratuita, contribuição espontânea">Sivananda</div>
-        <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta">Kriya Yoga</div>
-        <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado"></div>
-      </div>
-
-      <div class="row row-odd">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 19h30</div>
-        <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Segunda">Hatha Vinyasa Yoga & Tantra Yoga</div>
         <div class="cell right-border" data-title="Terça"></div>
-        <div class="cell right-border" data-title="Quarta">Hatha Yoga</div>
+        <div class="cell right-border" data-title="Quarta">Hatha Vinyasa Yoga & Tantra Yoga</div>
         <div class="cell right-border" data-title="Quinta"></div>
-        <div class="cell right-border" data-title="Sexta"></div>
+        <div class="cell right-border" data-title="Sexta">Kriya Hatha Yoga</div>
         <div class="cell" data-title="Sábado"></div>
       </div>
     </div>
   </div>
--->
+
 </div>
 
 
