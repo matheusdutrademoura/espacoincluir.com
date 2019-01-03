@@ -350,12 +350,12 @@ body, html {
 
       <div class="row">
         <div class="cell right-border"><span class="fa fa-clock-o"></span> 8h</div>
-        <div class="cell right-border" data-title="Segunda">Hatha Yoga</div>
-        <div class="cell right-border" data-title="Terça"></div>
+        <div class="cell right-border" data-title="Segunda"></div>
+        <div class="cell right-border" data-title="Terça">Hatha Yoga</div>
         <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta">Kriya Hatha Yoga</div>
+        <div class="cell right-border" data-title="Quinta">Hatha Yoga</div>
         <div class="cell right-border" data-title="Sexta"></div>
-        <div class="cell" data-title="Sábado">Hatha Yoga</div>
+        <div class="cell" data-title="Sábado">Kriya Hatha Yoga</div>
       </div>
 
       <div class="row row-odd">
@@ -383,8 +383,8 @@ body, html {
         <div class="cell right-border" data-title="Segunda"></div>
         <div class="cell right-border" data-title="Terça"></div>
         <div class="cell right-border" data-title="Quarta"></div>
-        <div class="cell right-border" data-title="Quinta">Kriya Hatha Yoga</div>
-        <div class="cell right-border" data-title="Sexta"></div>
+        <div class="cell right-border" data-title="Quinta"></div>
+        <div class="cell right-border" data-title="Sexta">Kriya Hatha Yoga</div>
         <div class="cell" data-title="Sábado"></div>
       </div>
 
