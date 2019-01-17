@@ -416,7 +416,7 @@ body, html {
   <h3 class="w3-center">UM INVESTIMENTO EM VOCÊ</h3>
   <p class="w3-center w3-padding-large">
       <span class="text-differentiated">Planos diversos</span> que se acomodam ao seu tempo e ao que você se permite. Flexíveis, as aulas
-      não são fixadas em dias específicos, mas a frequência do plano. A primeira aula experimental é oferecida gratuitamente, permita-se!
+      não são fixadas em dias específicos, mas a frequência do plano. Venha fazer uma aula experimental conosco!
   </p>
 
   <div class="wrapper">
