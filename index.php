@@ -583,14 +583,6 @@ body, html {
     <i class="fa fa-facebook-official w3-hover-opacity footer-fb" style="padding: 5px;" onClick="window.open('https://www.facebook.com/espacoincluir')"></i>
     <i class="fa fa-instagram instagram w3-hover-opacity footer-insta" style="padding: 5px;" onClick="window.open('https://www.instagram.com/espacoincluir.yoga/')"></i>
   </div>
-  <span style="color: #666666; font-size: 18px">
-    ॐ त्र्यं॑बकं यजामहे सु॒गन्धिं॑ पुष्टि॒वर्ध॑नम् ।<br>
-    उ॒र्वा॒रु॒कमि॑व॒ बन्ध॑नान् मृ॒त्योर् मु॑क्षीय॒ माऽमृता॑त् । <br>
-  </span>
-  <span style="color: #666666; font-size: 15px">
-    Om tryambakam yajāmahe sugandhim puṣṭivardhanam <br>
-    urvā rukamiva bandhanān mṛtyor mukṣīya mā'mṛtāt
-  </span>
 </footer>
 
 <!-- Add Google Maps -->
